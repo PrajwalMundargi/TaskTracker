@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "server": "node server.js",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "jest --forceExit --detectOpenHandles"
   },
   "dependencies": {
     "bcryptjs": "^3.0.3",
@@ -25,6 +26,10 @@
     "@tailwindcss/postcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "16.1.6",
+    "ioredis-mock": "^8.13.1",
+    "jest": "^30.2.0",
+    "mongodb-memory-server": "^11.0.1",
+    "supertest": "^7.2.2",
     "tailwindcss": "^4"
   }
 }
